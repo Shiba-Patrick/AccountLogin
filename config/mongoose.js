@@ -16,3 +16,5 @@ db.once('open', () => {
 db.on('error', () => {
   console.log('mongoDB connect error!!')
 })
+
+module.exports = db 
